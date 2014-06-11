@@ -5,7 +5,7 @@
 
 #bring data in
 #when prompted, choose pollinatorg_goole.txt from dropbox/Pollinator_Services
-pollinators<-read.table(file.choose(), header=TRUE, na.strings="")
+pollinators<-read.table("http://figshare.com/download/file/1529789", header=TRUE, na.strings="")
 
 
 
