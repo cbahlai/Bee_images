@@ -194,10 +194,10 @@ palette2<-c('royalblue3', 'indianred2','khaki4')
 
 #boxplots of bee data. No plots of syrphids because there was no bloom season effect
 par(mfrow=c(2,2))
-boxplot(JuliannaApis~BloomOrder, names=c("Early", "Middle", "Late"), col=palette1, ylab="Number of insects observed", main="Field observations- Apis bees")
-boxplot(JuliannaNonApis~BloomOrder, names=c("Early", "Middle", "Late"),col=palette1, main="Field observations- nonApis bees")
-boxplot(GoogleApis~BloomOrder, names=c("Early", "Middle", "Late"), col=palette1, ylab="Number of images with insects", xlab="Bloom season", main="Search results- Apis bees")
-boxplot(GoogleNonApis~BloomOrder, names=c("Early", "Middle", "Late"), col=palette1,xlab="Bloom season", main="Search results- nonApis bees")
+boxplot(JuliannaApis~BloomOrder, names=c("Early", "Middle", "Late"), col=palette1, ylab="Number of insects observed", main="A  Field observations- Apis bees")
+boxplot(JuliannaNonApis~BloomOrder, names=c("Early", "Middle", "Late"),col=palette1, main="B  Field observations- nonApis bees")
+boxplot(GoogleApis~BloomOrder, names=c("Early", "Middle", "Late"), col=palette1, ylab="Number of images with insects", xlab="Bloom season", main="C  Search results- Apis bees")
+boxplot(GoogleNonApis~BloomOrder, names=c("Early", "Middle", "Late"), col=palette1,xlab="Bloom season", main="D  Search results- nonApis bees")
 
 
 #plots of best model
